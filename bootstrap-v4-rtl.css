@@ -2909,7 +2909,7 @@ input[type="button"].btn-block {
   padding: 5px 0;
   margin: 2px 0 0;
   font-size: 1rem;
-  text-align: left;
+  text-align: right;
   list-style: none;
   background-color: #fff;
   -webkit-background-clip: padding-box;
@@ -3056,7 +3056,7 @@ input[type="button"].btn-block {
 .btn-group .btn + .btn-group,
 .btn-group .btn-group + .btn,
 .btn-group .btn-group + .btn-group {
-  margin-left: -1px;
+  margin-right: -1px;
 }
 
 .btn-toolbar {
@@ -3297,7 +3297,7 @@ input[type="button"].btn-block {
 }
 
 .input-group-addon:first-child {
-  border-right: 0;
+  border-left: 0;
 }
 
 .input-group .form-control:last-child,
@@ -3312,7 +3312,7 @@ input[type="button"].btn-block {
 }
 
 .input-group-addon:last-child {
-  border-left: 0;
+  border-right: 0;
 }
 
 .input-group-btn {
